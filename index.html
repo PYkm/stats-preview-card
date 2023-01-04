@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca:400">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 
   <title>Frontend Mentor Challenge | Stats preview card component</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2GL27WVS49"></script>
@@ -14,23 +18,19 @@
   gtag('js', new Date());
   gtag('config', 'G-2GL27WVS49');
   </script>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 <main>
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+  <div class="text-info">
+    <h1>Get <span class="accent">insights</span> that help your business grow.</h1>
+    <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+  experience, and overall efficiency.</p>
+    <div class="stats">
+      <p><strong class="lower">10k+</strong> companies</p>
+      <p><strong>314</strong> templates</p>
+      <p><strong>12m+</strong> queries</p>
+    </div>
+  </div>
 
 </main>
 <footer>
