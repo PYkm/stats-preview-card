@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub)
+- Solution URL: [on Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-fgskJT1zM5)
 - Live Site URL: [on Github](https://pykm.github.io/stats-preview-card/)
 
 ## My process
@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-Using background-blend-mode property to let the element's background image blend with the element's background color.
+Using `background-blend-mode` property to let the element's background image blend with the element's background color.
 
 ```html
 <main>
@@ -66,7 +66,7 @@ main::before{
 ### Continued development
 
 Technique that I'm not completely familiar with, can be found in this challenge:
-- background-blend-mode property.
+-  `background-blend-mode` property.
 
 Technique that I found useful, although not using in this challenge:
 - SASS
